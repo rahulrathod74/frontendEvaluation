@@ -196,6 +196,11 @@ main .heading{
 }
 
 .sports, .Friendly, .Multimedia p{
-    width: 80%;
-    font-size: 14px;
+    width: 70%;
+    font-size: 16px;
+    color: darkblue;
+}
+
+.learn img{
+    width: 70%;
 }
