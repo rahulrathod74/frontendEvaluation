@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header{
+    display: flex;
+    background: #333;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-con{
+    display: flex;
+    align-items: center;
+    
+}
+.logo-con > img{
+    width: 30%;
+}
+.logo-con >a{
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+}
+.respon{
+    display: flex;
+
+}
+.respon a {
+    border: 1px solid grey;
+    font-size: 24px;
+    color: lightgray;
+    padding: 15px;
+}
+
+.respon a:hover{
+    background-color: rgb(25, 242, 25);
+    color: white;
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ED078B;
+    color: white;
+   gap: 10px;
+    
+}
+.contact{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.contact a{
+    color: white;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+}
+.social a{
+    font-size: 24px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.kidlogo img{
+    cursor: pointer;
+}
+.navbar a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+.navbar a:hover{
+    background-color: rgb(49, 241, 244);
+    color: white;
+    border-radius: 20px;
+}
+
+
+main{
+    background-image: url(./image/learn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .heading{
+    width: 28%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; 
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 50%;
+}
+
+.heading h1{
+    font-size: 80px;
+    color: darkblue;
+    
+}
+
+.heading  span{
+    font-size: 36px;
+    color: rgb(206, 206, 9);
+    margin-bottom: 10px;
+}
+
+.heading button{
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #ED078B;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.heading button:hover{
+    background-color: aqua;
+}
+
+
+.heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+.heading2 h2{
+    font-size: 36px;
+    color: darkblue;
+
+}
+.heading2 span{
+    color: #ED078B;
+}
+
+.heading2 p{
+    width: 52%;
+    text-align: center;
+}
+
+.main-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-top: 40px;
+}
+.sports,.Friendly,.Multimedia{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+.sports h3{
+    color: cornflowerblue;
+}
+.Friendly h3{
+    color: rgb(249, 227, 33);
+}
+.Multimedia h3{
+    color: rgb(55, 199, 218);
+}
+
+.sports, .Friendly, .Multimedia p{
+    width: 80%;
+    font-size: 14px;
+}
